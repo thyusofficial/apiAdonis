@@ -8,3 +8,5 @@ Route.post('users', 'UserController.store')
 Route.post('sessions', 'Sessioncontroller.store')
 
 Route.post('passwords', 'ForgotPasswordController.store')
+
+Route.put('passwords', 'ForgotPasswordController.update')
